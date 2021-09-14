@@ -19,5 +19,4 @@ while True:
         break
 
 
-
 # cv2.waitkey(1) returns a 32-bit integer corresponding to the pressed key. & 0xFF is a bit mask which sets the left 24 bits to zero, because ord() returns a value betwen 0 and 255, since your keyboard only has a limited character set
